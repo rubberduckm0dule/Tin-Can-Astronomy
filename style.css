@@ -1,3 +1,37 @@
-#Header {
-  color: aqua;
+@font-face {
+  font-family: Spacesky;
+  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Spacesky.ttf");
+}
+
+@font-face {
+  font-family: Spaceboy;
+  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Spaceboy.TTF");
+}
+
+@font-face {
+  font-family: Modern_Romance;
+  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Modern_Romance.otf");
+}
+
+#Buttons {
+background-color: #741fae;
+padding: 10px;
+display: flex;
+}
+
+
+#Title {
+  color: #d096f7;
+  font-size: 25px;
+  font-family: Spaceboy;
+  text-shadow: 2px 2px rgb(155, 68, 216);
+  text-align: center;
+  
+}
+
+
+body {
+
+background-image: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Images\\Space_bg2.jpg");
+
 }
