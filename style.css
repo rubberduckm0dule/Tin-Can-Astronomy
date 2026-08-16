@@ -1,6 +1,6 @@
 @font-face {
   font-family: Spacesky;
-  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Spacesky.ttf"); 
+  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Spacesky.ttf");
 }
 
 @font-face {
@@ -13,31 +13,118 @@
   src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Modern_Romance.otf");
 }
 
-
-#Buttons {
-background-color: #741fae;
-padding: 10px;
-display: flex;
+@font-face {
+  font-family: DePixelHalbfett;
+  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\DePixelHalbfett.otf");
 }
 
-.Button {
-border-radius: 8px;
-cursor: pointer
+@font-face {
+  font-family: Chantal_Medium;
+  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\fonnts.com-Chantal_Medium.otf");
+}
 
+@font-face {
+  font-family: Valve-Bd;
+  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\valve-bd.otf");
+}
+
+.MP-Button {
+  background-color: #c27bf1;
+  border-color: #b04ff0;
+  border-radius: 10px;
+  font-family: Modern_Romance;
+  font-size: 20px;
+  position: relative;
+  right: -128px;
+  top: 15px;
+}
+
+#Buttons {
+  background-image: radial-gradient(circle, #751fac, #040310);
+  padding: 15px;
+  display: flex;
+  padding-right: 15px;
+  justify-content: right;
+}
+
+.Nav-Button {
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  background-color: #e2c5f5;
+  color: #451d60;
+  border-color: #e2c5f5;
+  font-family: Aethers, sans-serif;
+  
+}
+
+.Nav-Button:hover {
+  background-color: #d698ff;
+  border-color: #d698ff;
 }
 
 #Title {
   color: #d096f7;
   font-size: 25px;
-  font-family: Spaceboy;
+  font-family: DePixelHalbfett;
   text-shadow: 2px 2px rgb(155, 68, 216);
   text-align: center;
-  
 }
 
+#Title2 {
+  color: black;
+  font-family: Valve-Bd;
+  text-align: Left;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.Container1 {
+  background-color: #ccc9f6;
+  padding: 40px;
+  padding-bottom: 50px;
+  margin-right: 880px;
+  margin-left: 100px;
+  position: relative;
+  top: 50px;
+}
+
+#Text1 {
+  font-family: Georgia;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+#Astronaut {
+  text-align: right;
+  position: relative;
+  top: -500px;
+  right: -75px;
+  transform: rotate(30deg);
+}
+
+.Container2 {
+  background-color: #bdb9f7;
+  padding: 30px;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  position: relative;
+  top: -770px;
+  margin-right: 880px;
+  margin-left: 100px;
+}
+
+#Title3 {
+  font-family: Valve-Bd;
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  top: -690px;
+  font-size: 25px;
+}
 
 body {
-
-background-image: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Images\\Space_bg2.jpg");
-
+  background-image: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Images\\Space_bg2.jpg");
 }
