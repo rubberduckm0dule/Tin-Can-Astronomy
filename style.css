@@ -118,11 +118,16 @@
 
 #Title3 {
   font-family: Valve-Bd;
-  color: aliceblue;
-  text-align: center;
+  color: rgb(38, 19, 57);
+  text-align: left;
   position: relative;
   top: -690px;
-  font-size: 25px;
+  font-size: 27px;
+  background-color: #d4aaff;
+  box-shadow: 6px 11px #4d248a;
+  padding-left: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 body {
