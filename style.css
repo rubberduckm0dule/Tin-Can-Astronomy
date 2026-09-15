@@ -1,31 +1,31 @@
 @font-face {
   font-family: Spacesky;
-  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Spacesky.ttf");
+  src: url("Fonts\\Spacesky.ttf");
 }
 
 @font-face {
   font-family: Spaceboy;
-  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Spaceboy.TTF");
+  src: url("Fonts\\Spaceboy.TTF");
 }
 
 @font-face {
   font-family: Modern_Romance;
-  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\Modern_Romance.otf");
+  src: url("Fonts\\Modern_Romance.otf");
 }
 
 @font-face {
   font-family: DePixelHalbfett;
-  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\DePixelHalbfett.otf");
+  src: url("Fonts\\DePixelHalbfett.otf");
 }
 
 @font-face {
   font-family: Chantal_Medium;
-  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\fonnts.com-Chantal_Medium.otf");
+  src: url("Fonts\\fonnts.com-Chantal_Medium.otf");
 }
 
 @font-face {
   font-family: Valve-Bd;
-  src: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Fonts\\valve-bd.otf");
+  src: url("Fonts\\valve-bd.otf");
 }
 
 .MP-Button {
@@ -35,7 +35,7 @@
   font-family: Modern_Romance;
   font-size: 20px;
   position: relative;
-  right: -128px;
+  right: -160px;
   top: 15px;
 }
 
@@ -130,6 +130,55 @@
   margin-right: 40px;
 }
 
+.carousel {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  padding-right: 0.5em;
+  margin-top: -650px;
+
+}
+
+::-webkit-scrollbar {
+  color:#b04ff0
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  animation: spin 35s infinite linear
+}
+
+.card {
+  flex: 0 0 250px;
+  text-align: center;
+  align-content: center;
+}
+
+@keyframes spin {
+  from{translate : 0;}
+  to {translate: -100%;}
+}
+
+#Text2 {
+  color:#000000;
+  font-family: Georgia;
+  font-size: 20px;
+  background-color: #bdb9f7;
+  position: relative;
+  top: -500px;
+  left: -450px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 30px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
 body {
-  background-image: url("C:\\Users\\abbyp\\Tin Can Astronomy\\Images\\Space_bg2.jpg");
+  background-image: url("Images\\Space_bg2.jpg");
 }
