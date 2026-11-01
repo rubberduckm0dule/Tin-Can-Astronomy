@@ -1,2 +1,4 @@
 ﻿# Tin-Can-Astronomy
 Welcome to this marvelous half-baked astronomy blogging website! It's supposed to have short bite sized astronomy content for everyone of every age to enjoy and understand. I made the main page of this website using HTML, CSS and a lot of willpower, also Canva for making the slides of the carousel at the bottom. Enjoy reading about the solar system, which is the very first subject we'll be reviewing, and looking at the UI i've designed with a lot of effort (and also while learning through the way). I plan to add more functions with JavaScript and continue making the blog itself and writing articles. Stay tuned! 
+
+I would've added SO much more but I procrastinated finishing this and the Stardance deadline closed up on me, but at least I finished the main page! That's something, right? Well, bye! 💜
